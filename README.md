@@ -35,7 +35,8 @@ FTX, ако првиот е F вториот е T и со тоа последн�
 FFT, ако првиот е F вториот е F и третиот е T. (Item(name = "name", quantity = 11, price = 299, discount = 0))
 и имаме FFF (Item(name = "name", quantity = 9, price = 299, discount = 0))
 
-6. 6. Unit Tests
+6. Unit Tests
+   
 Истите тест случаи кои ги наведов во документацијава ги напишав и тука. И кога тестирав тие поминаа. Користев RuntimeException ex; за кога имаше RuntimeException и потоа вака
 ex = assertThrows(RuntimeException.class, () -> SILab2.checkCart(null, ""));
 assertTrue(ex.getMessage().contains("allItems list can't be null!"));
